@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(20,20,20);
+    color: rgb(255,255,255);
+    font-family: 'Onest', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+header ul {
+    display: flex;
+    padding: 10px 10px 50px 10px;
+    font-family: 'Questrial', sans-serif;
+}
+li {
+    list-style: none;
+    margin: 5px 10px;
+}
+h1 {
+    font-size: 80px;
+    font-weight: 600;
+    margin: 0;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero {
+    margin-top: 17vh;
+    text-align: center;
+}
+.light-text {
+    font-weight: 200;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+footer ul {
+    display: flex;
+    padding: 30px;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.socials {
+    width: 100px;
+    height: 320px;
+    background-color: rgb(242, 97, 92);
+    border-radius: 30px 0 0 30px;
+    position: fixed;
+    right: 0;
+    top: 25vh;
+    padding-left: 10px;
+}
+.social {
+    width: 100%;
+    height: 33%;
+}
+.wave {
+    fill: rgb(0,0,0);
+    width: 100vw;
+    height: 65vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.social svg {
+    fill: rgb(255,255,255);
+    width: 50px;
+    height: 60px;
+    margin-top: 30px;
+}
+.work-details {
+    width: 50%;
+   margin-bottom: 50px;
+}
+.work-details td {
+    padding: 30px;
+}
+.work-socials {
+    background-color: rgb(242, 97, 92);
+
+}
+.work-ul {
+    height: 90%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+
+}
