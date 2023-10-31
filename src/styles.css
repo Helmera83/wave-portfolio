@@ -17,9 +17,11 @@ li {
     margin: 5px 10px;
 }
 h1 {
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 600;
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 section {
     display: flex;
@@ -93,4 +95,52 @@ a {
     display: flex;
     flex-direction: row;
 
+}
+.container {
+    width:80vw;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image-container {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+
+}
+.tile {
+    width: 50%;
+    background-color: rgb(37,37,37);
+    margin: 7px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+.tile:hover {
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
+}
+.tile-share-button {
+    margin: 8px, 10px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(37,37,37);
+}
+.tile-share-button svg {
+    margin: 8px,10px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 44px;
+    height: 30px;
+}
+.icon {
+    margin: 8px,10px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 44px;
+    height: 30px;
 }
